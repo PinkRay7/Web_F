@@ -1,0 +1,166 @@
+body{
+  background-image: url('bkgd_noicon.png');
+  background-size: 100% auto;
+  width: 100%;
+  <!--min-height: 500vh;-->
+  overflow: scroll;
+  background-repeat:no-repeat;
+  font-family: 微软雅黑;
+}
+.mainTitle {
+  float: left;
+  font-size: 3em;
+  color: #2870db;
+  display:inline;
+  position: absolute;
+  left: 100px;
+  top:30px;
+}
+.mainSheet{
+  text-indent: 50px;
+  float: right;
+  color: white;
+  display:inline;
+  position: absolute;
+  top:26px;
+  right: 150px;
+}
+.divFromMS{
+  width:120px;
+  height:36px;
+  float:right;
+  background: white;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 36px;
+  position: absolute;
+  top:20px;
+  right: 50px;
+}
+.mainText1{
+  float: left;
+  position: relative;
+  font-size: 2.9em;
+  top:200px;
+  left: 200px;
+  color: #1c2056;
+}
+.startButton{
+  width:170px;
+  height:50px;
+  background: rgb(40,112,219);
+  border-radius: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.5em;
+  color: white;
+  box-shadow: 0 20px 10px rgba(40,112,219,0.22);
+}
+.mainText2{
+  text-align: center;
+  font-size: 1.5em;
+  position: absolute;
+  left: 43%;
+}
+.blockLeft{
+  width:413px;
+  height:267px;
+  float:left;
+  background: white;
+  border-radius: 15px;
+  text-align: left;
+  line-height: 30px;
+  position: absolute;
+  top: 1260px;
+  left: 310px;
+  font-size: 1.5em;
+  box-shadow: 0 10px 10px rgba(40,112,219,0.22);
+}
+.blockRight{
+  width:413px;
+  height:267px;
+  float:right;
+  background: white;
+  border-radius: 15px;
+  text-align: left;
+  line-height: 30px;
+  position: absolute;
+  top: 1600px;
+  right: 200px;
+  font-size: 1.5em;
+  box-shadow: 0 10px 10px rgba(40,112,219,0.22);
+}
+.blockPic{
+  position: absolute;
+  background: white;
+  border-radius: 15px;
+  text-align: left;
+  line-height: 30px;
+  font-size: 1.5em;
+  top: 3000px;
+  width: 230px;
+  height: 450px;
+  box-shadow: 0 10px 10px rgba(40,112,219,0.22);
+}
+.login{
+  position: absolute;
+  top: 3630px;
+  left: 18%;
+  background-image: url("Rectangle 2.png");
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 15px;
+  width: 1000px;
+  height: 440px;
+  box-shadow: 0 10px 10px rgba(31,110,227,0.15);
+}
+.lgBlock{
+  position: relative;
+  width: 350px;
+  height: 45px;
+  left: 32%;
+  line-height: 45px;
+  background: white;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 0.7em;
+  color: rgba(84,110,122,0.6);
+}
+.lgButton{
+  width:170px;
+  height:50px;
+  background: #00aeff;
+  position: relative;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 50px;
+  top: 40px;
+  left: 41%;
+  font-size: 0.6em;
+  color: white;
+  box-shadow: 0 10px 10px rgba(40,112,219,0.22);
+}
+.text{
+  position: absolute;
+  top: 4130px;
+  font-size: 0.8em;
+  width: 170px;
+  line-height: 30px;
+  color: white;
+  text-align: left;
+}
+.flag{
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 0;
+}
+.icon{
+  background: white;
+  border-radius: 100px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 4450px;
+}
