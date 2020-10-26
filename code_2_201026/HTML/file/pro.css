@@ -1,0 +1,55 @@
+.block{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    border: 20px solid rgba(128,128,128,0);
+    overflow: auto;
+    text-overflow: clip ;
+    width: 900px;
+    height: 440px;
+    background: rgba(128,128,128,0.22);
+    transition: width 1.5s;
+}
+.block:hover{
+    width: 1300px;
+}
+.headline{
+    width: 600px;
+    height: 200px;
+    line-height: 200px;
+    float: left;
+    position: relative;
+    left: 100px;
+    animation: myFirst 5s;
+    -webkit-animation: myFirst 5s;
+}
+
+@keyframes myFirst {
+    0%{left: 100px;}
+    50%{left: 530px;}
+    100%{left: 100px;}
+}
+
+div.img
+{
+    margin: 5px;
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 50px;
+    width: 300px;
+}
+
+div.img img{
+    width: 100%;
+    height: auto;
+}
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+    background: rgba(128,128,128,0.22);
+}
+
+
+
